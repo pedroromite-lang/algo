@@ -1,0 +1,15 @@
+<button onclick="mostrarMensagem()">Clique aqui</button>
+
+<script>
+    function mostrarMensagem() {
+        alert("Olá! Esta é a sua primeira interação!");
+    }
+</script>
+<p id="texto">Texto original</p>
+<button onclick="mudarTexto()">Mudar</button>
+
+<script>
+    function mudarTexto() {
+        document.getElementById("texto").innerText = "O texto mudou com o clique!";
+    }
+</script>
